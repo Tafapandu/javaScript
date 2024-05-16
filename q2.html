@@ -1,0 +1,30 @@
+<form id="form2">
+    <label for="studentName">Name*:</label>
+    <input type="text" id="studentName" name="studentName" maxlength="30" pattern="[A-Za-z]+" required><br><br>
+
+    <label for="registerNumber">Register Number*:</label>
+    <input type="text" id="registerNumber" name="registerNumber" pattern="[A-Za-z0-9]+" required><br><br>
+
+    <label for="dob">Date of Birth*:</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <label for="program">Program*:</label>
+    <input type="text" id="program" name="program" required><br><br>
+
+    <label for="email">Email*:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="tempAddress">Temporary Address*:</label><br>
+    <textarea id="tempAddress" name="tempAddress" rows="4" cols="50" required></textarea><br><br>
+
+    <label for="permAddress">Permanent Address*:</label><br>
+    <textarea id="permAddress" name="permAddress" rows="4" cols="50" required></textarea><br><br>
+
+    <label for="phone">Phone Number*:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required><br><br>
+
+    <input type="checkbox" id="sameAddress" name="sameAddress">
+    <label for="sameAddress">Permanent address is same as temporary address</label><br><br>
+
+    <button type="submit">Submit</button>
+</form>
